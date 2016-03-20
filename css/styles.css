@@ -3,3 +3,82 @@
 }	*/
 
 /*Comment goes here*/
+
+#box1 img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#box2 img {
+	float:left;
+}
+
+#box2 img:nth-of-type(1) {   /* find the 1st image ie grab 1st of type img and d margin right*/
+	margin-right: 10px;
+} 
+
+#box2 img:nth-of-type(2) {   /* find the 2nd image type etc etc */
+	margin-left: 10px;
+	float: right;
+}
+
+#box3 img:nth-of-type(1) {
+	float: left;
+}
+
+#box3 p img:nth-of-type(1) {
+	float: right;
+}
+
+#box4 {
+	background-color: red;
+	clear: both; /* make the div box4 clear L&R floats above so works no matter what */
+}
+
+#box5 {
+	background-color: orange;
+}
+
+#box5 img {
+	float: left;
+}
+
+#box6 {
+	background-color: blue;
+	clear: both; 
+
+}
+
+#box5:after,
+#products article:after {  /* clearfix workaround to stop div collapsing on floated objects*/
+	content: '';
+	/*background-color: green;*/
+	display: block;
+	clear: both;
+}
+
+#products article {
+	background-color: yellow;
+	width: 400px;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+
+}
+
+#products article img {
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
