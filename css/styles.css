@@ -2,4 +2,72 @@
 	background-color: red; 
 }	*/
 
-/*Comment goes here*/
+nav {
+	height: 100px;
+	background-color: #333333;
+}
+
+main {
+	/*min-height: 500px;*/
+	background-color: orange;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+main > img {
+	float: left;
+}
+
+h2 {
+	clear: both;
+}
+
+.product {
+	height: 300px;
+	background-color: red;
+	margin-right: 25.5px;
+	width: 32%;
+	float: left;
+}
+
+#product3 {
+	margin-right: 0;
+}
+
+main:after {    /* Clearfix */
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.post {
+	height: 600px;
+	margin-bottom: 10px;
+	background-color: yellow; 
+}	
+
+.side {
+	height: 200px;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+#posts {   /* div container for posts*/
+	float: left;
+	width: 844px;
+}
+
+
+#sidebar {
+	float: right;
+	width: 410px;
+}
+
+
+
+
+
+
+
+
+
