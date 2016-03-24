@@ -63,7 +63,9 @@ main:after {    /* Clearfix */
 	width: 410px;
 }
 
-
+#featured-product {
+	margin-right: 10px;
+}
 
 
 
